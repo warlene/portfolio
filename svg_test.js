@@ -1,3 +1,10 @@
+// var cadre = SVG('anim_entete')
+//  cadre.animate().move(170,130)
+
+
+
+
+
 var draw = SVG('drawing').size(400, 400)
 
 var polygon = draw.path('M66.238,20.522L59.866,93.13,13.036,40.188Z').fill('#d49f4b').opacity(0)

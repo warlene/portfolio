@@ -1,0 +1,9 @@
+<svg id="entete" xmlns="http://www.w3.org/2000/svg" width="1066.69" height="321.343" viewBox="0 0 1066.69 321.343">
+    <g style="fill:none;stroke:#d49f4b;stroke-width:2;stroke-linejoin:round;">
+  <path id="diago_gauche_T" data-name="diago gauche" class="cls-1" d="M470.2,294.673l5.809,5.81L315.8,460.7l-5.809-5.81Z" transform="translate(-310 -294.688)"/>
+  <path id="diago_droit_T" data-name="diago droit" class="cls-1" d="M1376.67,454.885l-5.81,5.81-160.2-160.212,5.81-5.81Z" transform="translate(-310 -294.688)"/>
+  <path id="barre_T" data-name="Forme 2" class="cls-1" d="M470.667,304.681v-10H1216v10H470.667Z" transform="translate(-310 -294.688)"/>
+  <path id="diago_droite_B" data-name="diago gauche copie" class="cls-1" d="M1216.47,616.036l-5.81-5.81,160.2-160.213,5.81,5.81Z" transform="translate(-310 -294.688)"/>
+  <path id="diago_gauche_B" data-name="diago droit copie" class="cls-1" d="M309.993,455.823l5.809-5.81,160.2,160.213-5.809,5.81Z" transform="translate(-310 -294.688)"/>
+  <path id="barre_B" data-name="Forme 2 copie" class="cls-1" d="M1216,606.028v10H470.667v-10H1216Z" transform="translate(-310 -294.688)"/>
+</svg>

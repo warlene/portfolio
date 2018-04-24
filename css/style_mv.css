@@ -1,0 +1,85 @@
+body {
+    background-color: #142134;
+}
+
+@font-face {
+    font-family: 'saniretro';
+    src: url('pictures/fonts/Saniretro.ttf');
+}
+
+#drawing {
+    margin-left: 500px;
+}
+
+.entete {
+    background-color: #142134;
+    position: absolute;
+    top: 40px;
+    height: 40px;
+}
+
+.nav-link {
+    font-family: 'saniretro';
+    font-size: 1.6em;
+    color: #d49f4b;
+}
+
+#enteteNav a {
+    color: #d49f4b;
+}
+
+.containerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbarNav {
+    display: inline-block;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        width: 550px;
+    }
+}
+
+#svg_header {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+#anim_entete {
+    display: flex;
+    justify-content: center;
+}
+
+#cadre_entete {
+    display: block;
+    width: 70%;
+}
+
+.text_name {
+    text-align: center;
+    margin-top: 5%;
+    position: absolute;
+    font-family: 'saniretro';
+    color: #f6d298;
+}
+
+.text_name h1 {
+    font-size: 4em;
+}
+
+.text_name h3 {
+    font-size: 3em;
+}

@@ -1,0 +1,26 @@
+<svg id="header" xmlns="http://www.w3.org/2000/svg" width="1591" height="197" viewBox="0 0 1591 197">
+    <g style="fill:none;stroke:#d49f4b;stroke-width:2;stroke-linejoin:round;">
+
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about=""/>
+       </rdf:RDF>
+    </x:xmpmeta>
+
+    <?xpacket end="w"?>
+  </metadata>
+
+  <path id="ligne_1" data-name="ligne 1" class="cls-1" d="M120.99,185.988V177h1447v8.99h-1447Z" transform="translate(-51 -56)"/>
+  <path id="ligne_V_G_1_court" data-name="ligne V G 1 court" class="cls-1" d="M52.24,56.06l9.749-.072L60.749,247.94,51,248.012Z" transform="translate(-51 -56)"/>
+  <path id="ligne_V_G_2_court" data-name="ligne V G 2 court" class="cls-1" d="M112.24,81.033l9.749-.04-1.24,105.974-9.749.04Z" transform="translate(-51 -56)"/>
+  <path id="ligne_V_D_2_court" data-name="ligne V D 2 court" class="cls-1" d="M1632.24,56.061l9.75-.073-1.24,196.951-9.75.073Z" transform="translate(-51 -56)"/>
+  <path id="ligne_V_D_1_court" data-name="ligne V D 1 court" class="cls-1" d="M1568.24,81.033l9.75-.04-1.24,105.974-9.75.04Z" transform="translate(-51 -56)"/>
+  <path id="ligne_H_2" data-name="ligne H 2" class="cls-1" d="M148.01,156.986v-8.979H1536.99v8.979H148.01Z" transform="translate(-51 -56)"/>
+  <path id="ligne_H_3" data-name="ligne H 3" class="cls-1" d="M74.667,128.006v-9.334H1605.33v9.334H74.667Z" transform="translate(-51 -56)"/>
+  <path id="ligne_H_1" data-name="ligne H 1" class="cls-1" d="M53.01,64.993V56H1642v8.991H53.01Z" transform="translate(-51 -56)"/>
+  <path id="Carré_gauche" data-name="Carré gauche" class="cls-1" d="M84,128.006v-9.334h37.333v9.334H84ZM74.667,90.671V81.337H112v9.334H74.667ZM112,81.337h9.333v37.335H112V81.337ZM74.667,90.671H84v37.335H74.667V90.671Z" transform="translate(-51 -56)"/>
+  <path id="diago_gauche" data-name="diago gauche" class="cls-1" d="M237.956,55.994l6.719,6.72L59.378,248.019,52.658,241.3Z" transform="translate(-51 -56)"/>
+  <path id="diago_droit" data-name="diago droit" class="cls-1" d="M1638.68,245.874l-6.82,6.812L1443.99,64.807l6.81-6.814Z" transform="translate(-51 -56)"/>
+  <path id="Carré_droit" data-name="Carré droit" class="cls-1" d="M1577.33,128.006v-9.334h37.34v9.334h-37.34ZM1568,90.671V81.337h37.33v9.334H1568Zm37.33-9.334h9.34v37.335h-9.34V81.337ZM1568,90.671h9.33v37.335H1568V90.671Z" transform="translate(-51 -56)"/>
+</svg>

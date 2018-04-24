@@ -10,7 +10,7 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #ea0023;
+            fill: #ea0023;
         fill-rule: evenodd;
       }
     </style>
