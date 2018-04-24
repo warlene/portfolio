@@ -1,0 +1,216 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<h1>My first SVG</h1>
+
+<div id="drawing"></div>
+
+<script type="text/javascript" src="svg.js/dist/svg.js"></script>
+<script type="text/javascript" src="svg.easing.js-master\dist\svg.easing.js"></script>
+<script type="text/javascript" src="svg_test.js"></script>
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #ea0023;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Polygone_2" data-name="Polygone 2" class="cls-1" d="M65.878,64.75L47.257,27.378l47.8,0.644Z"/>
+  <path id="Polygone_2-2" data-name="Polygone 2" class="cls-1" d="M134.3,64l18.694-37-47.987.637Z"/>
+  <path id="Polygone_3" data-name="Polygone 3" class="cls-1" d="M126.99,69.469l-53.975.523,27.5-33.986Z"/>
+  <path id="Polygone_1" data-name="Polygone 1" class="cls-1" d="M59.25,69.875L1.008,69.832,39.909,29Z"/>
+  <path id="Polygone_1-2" data-name="Polygone 1" class="cls-1" d="M142,70l57.992-.043L161.258,29Z"/>
+  <path id="Polygone_4" data-name="Polygone 4" class="cls-1" d="M92.6,175.852L4.495,79.221l57-.029Z"/>
+  <path id="Polygone_4-2" data-name="Polygone 4" class="cls-1" d="M109,176.008l88.007-96.975L140.065,79Z"/>
+  <path id="Polygone_5" data-name="Polygone 5" class="cls-1" d="M130,79l-29.779,95.01L71,79.079Z"/>
+</svg>
+
+<svg width="100" height="100">
+    <title>CERCLE</title>
+    <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+</svg>
+
+<svg width="210" height="110">
+    <title>RECTANGLE BLEU</title>
+  <rect width="200" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+
+<svg width="200" height="180">
+    <title>CARRE MAUVE</title>
+    <defs>
+   <filter id="f1" x="0" y="0">
+     <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+   </filter>
+ </defs>
+  <rect x="20" y="20" width="150" height="150"
+  style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" filter="url(#f1)" />
+</svg>
+
+<svg width="210" height="180">
+    <title>CARRE ROSE BORD ARRONDI</title>
+  <rect x="50" y="20" rx="30" ry="50" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg>
+
+<svg height="120" width="120">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+      <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="90" height="90" stroke="green" stroke-width="3"
+  fill="yellow" filter="url(#f1)">
+  <animate id="a1" attributeName="fill" from="red" to="blue" dur="3s" fill="freeze" />
+
+</rect>
+</svg>
+
+<svg height="140" width="500">
+    <title>ELLIPSE</title>
+  <ellipse cx="200" cy="80" rx="100" ry="50"
+  style="fill:ORANGE;stroke:purple;stroke-width:2" />
+</svg>
+
+<svg height="221" width="500">
+    <title>3 ELLIPSES</title>
+
+  <ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple" />
+  <ellipse cx="220" cy="120" rx="20" ry="100" style="fill:lime" />
+  <ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow" />
+</svg>
+
+<svg height="100" width="500">
+    <title>2 ELLIPSES FORME ANNEAU</title>
+  <ellipse cx="240" cy="50" rx="220" ry="30" style="fill:yellow" />
+  <ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white" />
+</svg>
+
+<svg height="210" width="310">
+    <title>LINE</title>
+  <line x1="0" y1="0" x2="300" y2="200" style="stroke:rgb(255,0,0);stroke-width:6" />
+</svg>
+
+<svg height="210" width="500">
+    <title>POLYGONE TRIANGLE</title>
+  <polygon points="200,10 300,140 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
+</svg>
+
+<svg height="310" width="500">
+    <title>POLYGONE hexagone</title>
+  <polygon points="220,10 300,110 300,250 220,300 123,234 123,50" style="fill:lime;stroke:purple;stroke-width:1" />
+</svg>
+
+<svg height="210" width="300">
+    <title>POLYGONE ETOILE</title>
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+</svg>
+
+<svg height="210" width="250">
+    <title>POLYGONE ETOILE NON PLEINE</title>
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+
+<svg height="200" width="300">
+    <title>POLYLINE</title>
+  <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
+  style="fill:none;stroke:black;stroke-width:3" />
+</svg>
+
+<svg height="180" width="300">
+    <title>POLYLINE ESCALIER</title>
+  <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
+  style="fill:white;stroke:red;stroke-width:4" />
+</svg>
+
+<svg height="210" width="400">
+    <title>PATH</title>
+  <path d="M150 0 L75 200 L225 200 Z" />
+</svg>
+
+<svg height="400" width="450">
+    <title>PATH QUADRATIC CURVE</title>
+  <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
+  stroke-width="3" fill="none" />
+  <path id="lineBC" d="M 250 50 l 150 300" stroke="red"
+  stroke-width="3" fill="none" />
+  <path d="M 175 200 l 150 0" stroke="green" stroke-width="3"
+  fill="none" />
+  <path d="M 100 350 q 150 -300 300 0" stroke="blue"
+  stroke-width="5" fill="none" />
+  <!-- Mark relevant points -->
+  <!--<g stroke="black" stroke-width="3" fill="black">
+    <circle id="pointA" cx="100" cy="350" r="3" />
+    <circle id="pointB" cx="250" cy="50" r="3" />
+    <circle id="pointC" cx="400" cy="350" r="3" />
+  </g>
+  <!-- Label the points -->
+ <!-- <g font-size="30" font-family="sans-serif" fill="black" stroke="none"
+  text-anchor="middle">
+    <text x="100" y="350" dx="-30">A</text>
+    <text x="250" y="50" dy="-10">B</text>
+    <text x="400" y="350" dx="30">C</text>
+  </g>
+</svg>
+
+<svg height="30" width="200">
+    <title>TEXT</title>
+  <text x="0" y="15" fill="red">I love SVG!</text>
+</svg>
+
+<svg height="60" width="200">
+    <title>TEXT DIAGONALE</title>
+  <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I love SVG</text>
+</svg>
+
+<svg height="90" width="200">
+    <title>TEXT EN GROUPE</title>
+  <text x="10" y="20" style="fill:red;">Several lines:
+    <tspan x="10" y="45">First line.</tspan>
+    <tspan x="10" y="70">Second line.</tspan>
+  </text>
+</svg>
+
+<svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TEXT AVEC LIEN</title>
+  <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
+    <text x="0" y="15" fill="red">I love SVG!</text>
+  </a>
+</svg>
+
+<svg height="80" width="300">
+    <title>LINE AVEC BOUT ARONDI ET LARGEUR DIFF</title>
+  <g fill="none">
+    <path stroke="red" stroke-linecap="butt" d="M5 20 l215 0" />
+    <path stroke="black" stroke-width="4" stroke-linecap="round" d="M5 40 l215 0" />
+    <path stroke="blue" stroke-width="6" stroke-linecap="square" d="M5 60 l215 0" />
+  </g>
+</svg>
+
+<svg height="80" width="300">
+    <title>LINE POINTILLE</title>
+  <g fill="none" stroke="black" stroke-width="4">
+    <path stroke-dasharray="5,5" d="M5 20 l215 0" />
+    <path stroke-dasharray="10,10" d="M5 40 l215 0" />
+    <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l220 0" />
+  </g>
+</svg> -->
+
+</body>
+</html>
