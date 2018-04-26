@@ -1,0 +1,15 @@
+<svg id="cadre_header" xmlns="http://www.w3.org/2000/svg" width="1572.062" height="630" viewBox="0 0 1572.062 630">
+    <g style="fill:none;stroke:#d49f4b;stroke-width:6;stroke-linejoin:round;">
+      <rect class="cls-1" x="0.062" width="1572" height="171"/>
+      <path id="triangle_G" data-name="triangle G" class="cls-2" d="M200.942,278.746L202,108.241l167.974,0.35Z" transform="translate(-200.938 -108)"/>
+      <path id="triangle_D" data-name="triangle D" class="cls-2" d="M1773,279l-1.06-171-167.94.351Z" transform="translate(-200.938 -108)"/>
+      <rect id="carré_D" data-name="carré D" class="cls-3" x="1506.062" y="26" width="37" height="37"/>
+      <rect id="carré_G" data-name="carré G" class="cls-3" x="24.062" y="26" width="37" height="37"/>
+      <rect class="cls-4" x="60.062" y="63" width="1447" height="49"/>
+      <path class="cls-6" d="M261,220H1708L1352.76,485.752l-729.474-1.446Z" transform="translate(-200.938 -108)"/>
+      <path id="Polygone_1" data-name="Polygone 1" class="cls-7" d="M1487.01,572.085L1236.81,738l-500-.088-249.8-166,250.2-165.918,500,0.088Z" transform="translate(-200.938 -108)"/>
+    </g>
+    <g style="fill:none;stroke:#d49f4b;stroke-width:2;stroke-linejoin:round;">
+      <path id="Forme_1" data-name="Forme 1" class="cls-5" d="M282,199v-5H1692v5H282Z" transform="translate(-200.938 -108)"/>
+    </g>
+</svg>

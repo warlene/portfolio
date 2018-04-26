@@ -18,7 +18,7 @@ body {
     height: 40px;
 }
 
-.nav-link {
+.nav-link, .description {
     font-family: 'saniretro';
     font-size: 1.6em;
     color: #d49f4b;
@@ -65,12 +65,12 @@ body {
 
 #cadre_entete {
     display: block;
-    width: 70%;
+    width: 60%;
 }
 
 .text_name {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 25%;
     position: absolute;
     font-family: 'saniretro';
     color: #f6d298;
@@ -82,4 +82,69 @@ body {
 
 .text_name h3 {
     font-size: 3em;
+}
+
+#profil, #cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#profil {
+    margin-top: 12%;
+}
+
+.photo, .description, .cv, #DIAMS {
+    display: block;
+}
+
+.description {
+    text-align: justify;
+    color: #fff;
+}
+
+#diams_cv h3 {
+    font-family: 'saniretro';
+    font-size: 2.2em;
+    color: #d49f4b;
+    text-align: center;
+    padding-right: 0;
+}
+
+#diams_cv h3:hover {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.linkedin, .github {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.github {
+    border-radius: 5px;
+}
+
+.linkedin:hover, .github:hover {
+    width: 90px;
+}
+
+#cv {
+    margin-top: 60px;
+}
+
+.logo, #transit_parcours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#diago_cadre {
+    width: auto;
+}
+
+.diago_parcours {
+    padding-right: 0;
 }

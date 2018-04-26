@@ -1,0 +1,15 @@
+<svg id="cadre_header" xmlns="http://www.w3.org/2000/svg" width="1572.062" height="630" viewBox="0 0 1572.062 630" style="">
+    <g style="fill:none;stroke:#d49f4b;stroke-width:6;stroke-linejoin:round;">
+      <path class="cls-1 quoupHGl_0" width="1572" height="171" d="M0.062 0 L1572.062 0 L1572.062 171 L0.062 171 Z"></path>
+      <path id="triangle_G" data-name="triangle G" class="cls-2 quoupHGl_1" d="M200.942,278.746L202,108.241l167.974,0.35Z" transform="translate(-200.938 -108)"></path>
+      <path id="triangle_D" data-name="triangle D" class="cls-2 quoupHGl_2" d="M1773,279l-1.06-171-167.94.351Z" transform="translate(-200.938 -108)"></path>
+      <path id="carrÃ©_D" data-name="carrÃ© D" class="cls-3 quoupHGl_3" width="37" height="37" d="M1506.062 26 L1543.062 26 L1543.062 63 L1506.062 63 Z"></path>
+      <path id="carrÃ©_G" data-name="carrÃ© G" class="cls-3 quoupHGl_4" width="37" height="37" d="M24.062 26 L61.062 26 L61.062 63 L24.062 63 Z"></path>
+      <path class="cls-4 quoupHGl_5" width="1447" height="49" d="M60.062 63 L1507.062 63 L1507.062 112 L60.062 112 Z"></path>
+      <path class="cls-6 quoupHGl_6" d="M261,220H1708L1352.76,485.752l-729.474-1.446Z" transform="translate(-200.938 -108)"></path>
+      <path id="Polygone_1" data-name="Polygone 1" class="cls-7 quoupHGl_7" d="M1487.01,572.085L1236.81,738l-500-.088-249.8-166,250.2-165.918,500,0.088Z" transform="translate(-200.938 -108)"></path>
+    </g>
+    <g style="fill:none;stroke:#d49f4b;stroke-width:2;stroke-linejoin:round;">
+      <path id="Forme_1" data-name="Forme 1" class="cls-5 quoupHGl_8" d="M282,199v-5H1692v5H282Z" transform="translate(-200.938 -108)"></path>
+    </g>
+<style data-made-with="vivus-instant">.quoupHGl_0{stroke-dasharray:3486 3488;stroke-dashoffset:3487;animation:quoupHGl_draw 1900ms ease-out 0ms forwards;}.quoupHGl_1{stroke-dasharray:579 581;stroke-dashoffset:580;animation:quoupHGl_draw 1900ms ease-out 137ms forwards;}.quoupHGl_2{stroke-dasharray:580 582;stroke-dashoffset:581;animation:quoupHGl_draw 1900ms ease-out 275ms forwards;}.quoupHGl_3{stroke-dasharray:148 150;stroke-dashoffset:149;animation:quoupHGl_draw 1900ms ease-out 412ms forwards;}.quoupHGl_4{stroke-dasharray:148 150;stroke-dashoffset:149;animation:quoupHGl_draw 1900ms ease-out 550ms forwards;}.quoupHGl_5{stroke-dasharray:2992 2994;stroke-dashoffset:2993;animation:quoupHGl_draw 1900ms ease-out 687ms forwards;}.quoupHGl_6{stroke-dasharray:3069 3071;stroke-dashoffset:3070;animation:quoupHGl_draw 1900ms ease-out 825ms forwards;}.quoupHGl_7{stroke-dasharray:2201 2203;stroke-dashoffset:2202;animation:quoupHGl_draw 1900ms ease-out 962ms forwards;}.quoupHGl_8{stroke-dasharray:2830 2832;stroke-dashoffset:2831;animation:quoupHGl_draw 1900ms ease-out 1100ms forwards;}@keyframes quoupHGl_draw{100%{stroke-dashoffset:0;}}@keyframes quoupHGl_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

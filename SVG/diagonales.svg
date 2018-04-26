@@ -1,0 +1,5 @@
+<svg id="diago_cadre" height="500" width="1300" viewBox="0 0 700 1500">
+    <title>LINE</title>
+    <line x1="0" y1="0" x2="600" y2="300" style="stroke:rgb(212,159,75);stroke-width:6" />
+    <line x1="1200" y1="0" x2="600" y2="300" style="stroke:rgb(212,159,75);stroke-width:6" />
+</svg>

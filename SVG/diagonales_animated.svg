@@ -1,0 +1,5 @@
+<svg id="diago_cadre" height="500" width="1300" viewBox="0 0 700 1500" style="">
+    <title>LINE</title>
+    <path style="stroke:rgb(212,159,75);stroke-width:6" d="M0,0L600,300" class="IHqmgPLR_0"></path>
+    <path style="stroke:rgb(212,159,75);stroke-width:6" d="M1200,0L600,300" class="IHqmgPLR_1"></path>
+<style data-made-with="vivus-instant">.IHqmgPLR_0{stroke-dasharray:671 673;stroke-dashoffset:672;animation:IHqmgPLR_draw 2000ms ease-out 0ms forwards;}.IHqmgPLR_1{stroke-dasharray:671 673;stroke-dashoffset:672;animation:IHqmgPLR_draw 2000ms ease-out 0ms forwards;}@keyframes IHqmgPLR_draw{100%{stroke-dashoffset:0;}}@keyframes IHqmgPLR_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
