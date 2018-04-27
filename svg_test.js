@@ -50,15 +50,6 @@ $(function () {
        poly8.fill('#d49f4b');
    });
 
-   // var diago = SVG('diago_parcours').size(1600, 500)
-   //
-   // var lineG = diago.line(0, 6, 0, 6).stroke({ width: 6 }).stroke('#d49f4b');
-   // var lineD = diago.line(1550, 0,1550, 0).stroke({ width: 6 }).stroke('#d49f4b');
-   //
-   // lineG.animate(2000).plot([[705, 400],  [0, 6]])
-   // lineD.animate(2000).plot([[1550, 0],  [700, 400]])
-
-
     // var draw = SVG('drawing').size(400, 400)
     //
     // var polygon = draw.path('M66.238,20.522L59.866,93.13,13.036,40.188Z').fill('#d49f4b').opacity(0)
@@ -70,7 +61,7 @@ $(function () {
     // var polygon7 = draw.path('M367.623,393.733l-15.9-163.36-47.979,52.686Z').fill('#d49f4b').opacity(0)
     // var polygon8 = draw.path('M244.353,269.094l-11.21,124.414L172.209,284.8Z').fill('#d49f4b').opacity(0)
     //
-    // polygon.animate(1000, 'quadOut').move(110,-40).rotate(85).opacity(1)  //.move(70,130)
+    // polygon.animate(1000, 'quadOut').move(110,-40).rotate(85).opacity(1)
     // polygon2.animate(1000, 'quadOut').rotate(25).move(155,95).opacity(1)
     // polygon3.animate(1000, 'quadOut').move(170,130).opacity(1)
     // polygon4.animate(1000, 'quadOut').move(188,90).rotate(-28).opacity(1)
@@ -78,4 +69,12 @@ $(function () {
     // polygon6.animate(1000, 'quadOut').move(145,194).rotate(-28).opacity(1)
     // polygon8.animate(1000, 'quadOut').move(137,181).rotate(12).opacity(1)
     // polygon7.animate(1000, 'quadOut').move(186,234).rotate(47).opacity(1)
+
+    // var diago = SVG('diago_parcours').size(1600, 500)
+    //
+    // var lineG = diago.line(0, 6, 0, 6).stroke({ width: 6 }).stroke('#d49f4b');
+    // var lineD = diago.line(1550, 0,1550, 0).stroke({ width: 6 }).stroke('#d49f4b');
+    //
+    // lineG.animate(2000).plot([[705, 400],  [0, 6]])
+    // lineD.animate(2000).plot([[1550, 0],  [700, 400]])
 });

@@ -1,0 +1,32 @@
+<svg id="parcours_form" xmlns="http://www.w3.org/2000/svg" width="747" height="615.375" viewBox="0 0 747 615.375">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2 {
+      fill: none;
+      stroke: rgb(212,159,75);
+      stroke-linejoin: "round";
+      stroke-width: 6;
+      }
+    </style>
+  </defs>
+  <path id="triangle_TG" data-name="triangle TG" class="cls-1" d="M289.326,25.632l77.814,76.677H212.133Z" transform="translate(-124 -25.625)"/>
+  <path id="Rectangle_TG" data-name="Rectangle TG" class="cls-2" d="M243.007,102.277L307.331,45.01l16.677,15.927-44.129,42.072Z" transform="translate(-124 -25.625)"/>
+  <path id="angle_TG" data-name="angle TG" class="cls-1" d="M124.258,103.761l158.234-.843L124.049,261.361Z" transform="translate(-124 -25.625)"/>
+  <path id="angle_TD" data-name="angle TD" class="cls-1" d="M868.805,102.852l-157.8-.84L869.013,259.986Z" transform="translate(-124 -25.625)"/>
+  <path id="angle_BD" data-name="angle BD" class="cls-1" d="M870.805,564.148l-157.8.84L871.013,407.014Z" transform="translate(-124 -25.625)"/>
+  <path id="angle_BD-2" data-name="angle BD" class="cls-1" d="M124.2,564.148l157.8,0.84L123.987,407.014Z" transform="translate(-124 -25.625)"/>
+  <path id="triangle_BD" data-name="triangle BD" class="cls-1" d="M705.8,640.994l-77.814-76.305H782.992Z" transform="translate(-124 -25.625)"/>
+  <path id="Rectangle_BD" data-name="Rectangle BD" class="cls-2" d="M752.118,564.719l-64.324,56.99-16.677-15.85,44.129-41.868Z" transform="translate(-124 -25.625)"/>
+  <path id="triangle_TD" data-name="triangle TD" class="cls-1" d="M705.8,26.006l-77.814,76.3H782.992Z" transform="translate(-124 -25.625)"/>
+  <path id="Rectangle_TD" data-name="Rectangle TD" class="cls-2" d="M752.118,102.281l-64.324-56.99-16.677,15.85,44.129,41.868Z" transform="translate(-124 -25.625)"/>
+  <path id="triangle_BG" data-name="triangle BG" class="cls-1" d="M289.2,640.994l77.814-76.305H212.008Z" transform="translate(-124 -25.625)"/>
+  <path id="Rectangle_BG" data-name="Rectangle BG" class="cls-2" d="M242.882,564.719l64.324,56.99,16.677-15.85-44.129-41.868Z" transform="translate(-124 -25.625)"/>
+</svg>

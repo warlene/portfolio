@@ -7,6 +7,21 @@ body {
     src: url('pictures/fonts/Saniretro.ttf');
 }
 
+@font-face {
+    font-family: 'segan';
+    src: url('pictures/fonts/Segan-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Bellerose';
+    src: url('pictures/fonts/Bellerose.ttf');
+}
+
+@font-face {
+    font-family: 'LRT_Oksana';
+    src: url('pictures/fonts/LRT_Oksana.ttf');
+}
+
 #drawing {
     margin-left: 500px;
 }
@@ -38,20 +53,14 @@ body {
     display: inline-block;
 }
 
-#header {
+#header, #footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-    #header {
-        width: 550px;
-    }
-}
-
-#svg_header {
+#svg_header, #cadre_footer {
     display: block;
     margin-left: 20px;
     margin-right: 20px;
@@ -106,10 +115,13 @@ body {
 
 #diams_cv h3 {
     font-family: 'saniretro';
-    font-size: 2.2em;
     color: #d49f4b;
     text-align: center;
     padding-right: 0;
+}
+
+#diams_cv h3 {
+    font-size: 2.2em;
 }
 
 #diams_cv h3:hover {
@@ -134,7 +146,7 @@ body {
     margin-top: 60px;
 }
 
-.logo, #transit_parcours {
+.logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -145,6 +157,66 @@ body {
     width: auto;
 }
 
+#transit_parcours, .experience, .parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .diago_parcours {
+    display: block;
     padding-right: 0;
+}
+
+.experience {
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.experience_text {
+    font-family: 'Bellerose';
+    color: #fff;
+    text-align: center;
+    padding-right: 0;
+    position: relative;
+}
+
+@media (min-width: 576px) {
+    .experience_text {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 768px) {
+    .experience_text {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 992px) {
+    .experience_text {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .experience_text {
+        font-size: 1.6em;
+    }
+}
+
+#parcours_form, #parcours_form_3 {
+    width: 80%;
+    position: absolute;
+}
+
+#parcours_form_2 {
+    width: 90%;
+    position: absolute;
+}
+
+footer {
+    width: auto;
 }

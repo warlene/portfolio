@@ -1,0 +1,15 @@
+<svg id="cadre_footer" xmlns="http://www.w3.org/2000/svg" width="1572" height="171" viewBox="0 0 1572 171" style="">
+    <g style="fill:none;stroke:#d49f4b;stroke-width:6;stroke-linejoin:round;">
+
+      <path class="cls-1 RlPkSHgl_0" width="1571.937" height="171" d="M0.063 0 L1572 0 L1572 171 L0.063 171 Z"></path>
+      <path id="triangle_G" data-name="triangle G" class="cls-2 RlPkSHgl_1" d="M174.005,684.254l1.054,170.505,167.966-.35Z" transform="translate(-174 -684)"></path>
+      <path id="triangle_D" data-name="triangle D" class="cls-2 RlPkSHgl_2" d="M1746,684l-1.06,171.005-167.93-.351Z" transform="translate(-174 -684)"></path>
+      <path id="carrÃ©_D" data-name="carrÃ© D" class="cls-3 RlPkSHgl_3" width="37" height="37" d="M1506 108 L1543 108 L1543 145 L1506 145 Z"></path>
+      <path id="carrÃ©_G" data-name="carrÃ© G" class="cls-3 RlPkSHgl_4" width="37" height="37" d="M24.063 108 L61.063 108 L61.063 145 L24.063 145 Z"></path>
+      <path class="cls-4 RlPkSHgl_5" width="1446.937" height="49" d="M60.063 59 L1507 59 L1507 108 L60.063 108 Z"></path>
+    </g>
+    <g style="fill:none;stroke:#d49f4b;stroke-width:2;stroke-linejoin:round;">
+      <path id="Forme_1" data-name="Forme 1" class="cls-5 RlPkSHgl_6" d="M255.059,764v5H1665v-5H255.059Z" transform="translate(-174 -684)"></path>
+    </g>
+<style data-made-with="vivus-instant">.RlPkSHgl_0{stroke-dasharray:3486 3488;stroke-dashoffset:3487;animation:RlPkSHgl_draw 1900ms ease-out 0ms forwards;}.RlPkSHgl_1{stroke-dasharray:579 581;stroke-dashoffset:580;animation:RlPkSHgl_draw 1900ms ease-out 183ms forwards;}.RlPkSHgl_2{stroke-dasharray:580 582;stroke-dashoffset:581;animation:RlPkSHgl_draw 1900ms ease-out 366ms forwards;}.RlPkSHgl_3{stroke-dasharray:148 150;stroke-dashoffset:149;animation:RlPkSHgl_draw 1900ms ease-out 550ms forwards;}.RlPkSHgl_4{stroke-dasharray:148 150;stroke-dashoffset:149;animation:RlPkSHgl_draw 1900ms ease-out 733ms forwards;}.RlPkSHgl_5{stroke-dasharray:2992 2994;stroke-dashoffset:2993;animation:RlPkSHgl_draw 1900ms ease-out 916ms forwards;}.RlPkSHgl_6{stroke-dasharray:2830 2832;stroke-dashoffset:2831;animation:RlPkSHgl_draw 1900ms ease-out 1100ms forwards;}@keyframes RlPkSHgl_draw{100%{stroke-dashoffset:0;}}@keyframes RlPkSHgl_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
+</svg>

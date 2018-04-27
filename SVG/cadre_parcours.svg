@@ -1,0 +1,17 @@
+<svg id="cadre_parcours" xmlns="http://www.w3.org/2000/svg" width="924.125" height="468" viewBox="0 0 924.125 468">
+ <!-- <line x1="0" y1="0" x2="600" y2="300" style="stroke:rgb(212,159,75);stroke-width:6" /> -->
+  <line id="H_Top" data-name="H Top" class="cls-1" x1="107" y1="79" x2="836" y2="79" style="stroke:rgb(212,159,75);stroke-width:6" />
+  <line id="H_Bottom" data-name="H Bottom" class="cls-1" x1="107" y1="568" x2="836" y2="568" style="stroke:rgb(212,159,75);stroke-width:6"/>
+  <line id="V_petit_TD_" data-name="V petit TD " class="cls-1" d="M748,101h5.76v30.059L748,131V101Zm120.751,3.125L875,104.131V251.293l-6.249-.309V104.125Zm0,0L875,104.131V251.293l-6.249-.309V104.125Z" transform="translate(-35 -100)"/>
+  <line id="V_grand_TD_" data-name="V grand TD " class="cls-1" x1="909" y1="103" x2="909" y2="290" />
+  <line id="V_petit_BD_" data-name="V petit BD " class="cls-1" d="M748,565h5.8V534.95L748,535v30Zm120.792-3.1,6.208,0V415.756l-6.208.256V561.9Zm0,0,6.208,0V415.756l-6.208.256V561.9Z" transform="translate(-35 -100)"/>
+  <line id="V_grand_BD" data-name="V grand BD" class="cls-1" d="M909,563h6V376h-6V563Z" transform="translate(-35 -100)"/>
+  <line id="V_petit_TG_" data-name="V petit TG " class="cls-1" d="M246,101h-5.989v31.312l5.989,0V101Zm-120.989,3.137H119V251.568l6.011-.013V104.137Zm0,0H119V251.568l6.011-.013V104.137Z" transform="translate(-35 -100)"/>
+  <line id="V_grand_TG" data-name="V grand TG" class="cls-1" d="M85,103H79V290h6V103Z" transform="translate(-35 -100)"/>
+  <line id="V_petit_BG" data-name="V petit BG" class="cls-1" d="M246,568h-5.9V537.043l5.9,0.025V568Zm-120.9-3.144-6.1,0V416.963l6.1,0.123v147.77Zm0,0-6.1,0V416.963l6.1,0.123v147.77Z" transform="translate(-35 -100)"/>
+  <line id="V_grand_BG" data-name="V grand BG" class="cls-1" d="M85,566H79V379h6V566Z" transform="translate(-35 -100)"/>
+  <line id="diago_TD" data-name="diago TD" class="cls-1" d="M747.879,131.121l4.242-4.242,207,207-4.242,4.242Z" transform="translate(-35 -100)"/>
+  <line id="diago_BD" data-name="diago BD" class="cls-1" d="M748,535.759L752.241,540,959,333.241,954.759,329Z" transform="translate(-35 -100)"/>
+  <line id="diago_TD-2" data-name="diago TD" class="cls-1" d="M246,536.755L241.759,541,35,334.059l4.238-4.241Z" transform="translate(-35 -100)"/>
+  <line id="diago_BD-2" data-name="diago BD" class="cls-1" d="M245.871,132.24L241.639,128,35.129,334.7l4.233,4.236Z" transform="translate(-35 -100)"/>
+</svg>
