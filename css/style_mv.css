@@ -2,6 +2,22 @@ body {
     background-color: #142134;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'saniretro';
+    color: #d49f4b;
+    text-align: center;
+    padding-right: 0;
+    font-size: 4em;
+    margin-top: 13%;
+    margin-bottom: 30px;
+}
+
 @font-face {
     font-family: 'saniretro';
     src: url('pictures/fonts/Saniretro.ttf');
@@ -22,17 +38,6 @@ body {
     src: url('pictures/fonts/LRT_Oksana.ttf');
 }
 
-#drawing {
-    margin-left: 500px;
-}
-
-.entete {
-    background-color: #142134;
-    position: absolute;
-    top: 40px;
-    height: 40px;
-}
-
 .nav-link, .description {
     font-family: 'saniretro';
     font-size: 1.6em;
@@ -40,20 +45,46 @@ body {
 }
 
 #enteteNav a {
-    color: #d49f4b;
-}
-
-.containerNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    color: #fff;
 }
 
 #navbarNav {
-    display: inline-block;
+    display: inline;
 }
 
-#header, #footer {
+@media (min-width: 320px) {
+    .containerNav {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerNav {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #142134;
+        position: absolute;
+        top: 5%;
+        height: 30px;
+        width: 60%;
+    }
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -62,19 +93,8 @@ body {
 
 #svg_header, #cadre_footer {
     display: block;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto;
-}
-
-#anim_entete {
-    display: flex;
-    justify-content: center;
-}
-
-#cadre_entete {
-    display: block;
-    width: 60%;
+    margin: 10px;
+    height: 100%;
 }
 
 .text_name {
@@ -85,12 +105,58 @@ body {
     color: #f6d298;
 }
 
-.text_name h1 {
-    font-size: 4em;
+.text_name h3 {
+    color: #fff;
 }
 
-.text_name h3 {
-    font-size: 3em;
+@media (min-width: 320px) {
+    .text_name h1 {
+        font-size: 0.6rem;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .text_name h3 {
+        margin: auto;
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .text_name h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    .text_name h3 {
+        margin: auto;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .text_name h1 {
+        font-size: 2rem;
+    }
+    .text_name h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .text_name h1 {
+        font-size: 2.5rem;
+    }
+    .text_name h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text_name h1 {
+        font-size: 3.5rem;
+    }
+    .text_name h3 {
+        font-size: 3rem;
+    }
 }
 
 #profil, #cv {
@@ -100,8 +166,22 @@ body {
     flex-wrap: wrap;
 }
 
-#profil {
-    margin-top: 12%;
+@media (min-width: 576px) {
+    #profil {
+        margin-top: 12%;
+    }
+}
+
+@media (min-width: 768px) {
+    #profil {
+        margin-top: 12%;
+    }
+}
+
+@media (min-width: 992px) {
+    #profil {
+        margin-top: 12%;
+    }
 }
 
 .photo, .description, .cv, #DIAMS {
@@ -113,14 +193,15 @@ body {
     color: #fff;
 }
 
-#diams_cv h3 {
+#diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8 {
     font-family: 'saniretro';
-    color: #d49f4b;
+    color: #fff;
     text-align: center;
     padding-right: 0;
 }
 
 #diams_cv h3 {
+    color: #d49f4b;
     font-size: 2.2em;
 }
 
@@ -175,7 +256,7 @@ body {
     margin-bottom: 10%;
 }
 
-.experience_text {
+.experience_text, .experience_text_2 {
     font-family: 'Bellerose';
     color: #fff;
     text-align: center;
@@ -184,7 +265,7 @@ body {
 }
 
 @media (min-width: 576px) {
-    .experience_text {
+    .experience_text, .experience_text_2 {
         font-size: 0.9em;
     }
 }
@@ -198,6 +279,9 @@ body {
 @media (min-width: 992px) {
     .experience_text {
         font-size: 1.4em;
+    }
+    .experience_text_2 {
+        font-size: 1.3em;
     }
 }
 
@@ -215,6 +299,24 @@ body {
 #parcours_form_2 {
     width: 90%;
     position: absolute;
+}
+
+#competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#line1, #line2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#diamant1, #diamant2, #diamant3 {
+    display: block;
+    margin: 0;
 }
 
 footer {
