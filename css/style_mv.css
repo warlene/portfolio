@@ -13,9 +13,26 @@ h1 {
     color: #d49f4b;
     text-align: center;
     padding-right: 0;
-    font-size: 4em;
     margin-top: 13%;
     margin-bottom: 30px;
+}
+
+@media (min-width: 556px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4em;
+    }
 }
 
 @font-face {
@@ -52,7 +69,7 @@ h1 {
     display: inline;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
     .containerNav {
         display: none;
     }
@@ -99,7 +116,7 @@ h1 {
 
 .text_name {
     text-align: center;
-    padding-top: 25%;
+    padding-top: 22%;
     position: absolute;
     font-family: 'saniretro';
     color: #f6d298;
@@ -109,7 +126,7 @@ h1 {
     color: #fff;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
     .text_name h1 {
         font-size: 0.6rem;
         margin-top: 20px;
@@ -189,8 +206,34 @@ h1 {
 }
 
 .description {
-    text-align: justify;
     color: #fff;
+}
+
+@media (min-width: 360px) {
+    .description {
+        text-align: center;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 576px) {
+    .description {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    .description {
+        text-align: justify;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 992px) {
+    .description {
+        text-align: justify;
+        font-size: 2em;
+    }
 }
 
 #diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8 {
@@ -245,15 +288,31 @@ h1 {
     align-items: center;
 }
 
+/*
 .diago_parcours {
     display: block;
     padding-right: 0;
-}
+} */
 
 .experience {
-    width: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#parcours_form, #parcours_form_2, #parcours_form_3 {
+    position: relative;
+}
+
+@media (min-width: 360px) {
+    #parcours_form, #parcours_form_2, #parcours_form_3 {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #parcours_form, #parcours_form_2, #parcours_form_3 {
+        width: 100%;
+    }
 }
 
 .experience_text, .experience_text_2 {
@@ -261,12 +320,21 @@ h1 {
     color: #fff;
     text-align: center;
     padding-right: 0;
-    position: relative;
+    position: absolute;
+}
+
+@media (min-width: 360px) {
+    .experience_text, .experience_text_2 {
+        font-size: 0.5em;
+    }
+    .experience_text h3, .experience_text_2 h3 {
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 576px) {
     .experience_text, .experience_text_2 {
-        font-size: 0.9em;
+        font-size: 1.4em;
     }
 }
 
@@ -287,19 +355,14 @@ h1 {
 
 @media (min-width: 1200px) {
     .experience_text {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 }
 
-#parcours_form, #parcours_form_3 {
-    width: 80%;
-    position: absolute;
-}
-
-#parcours_form_2 {
+/* #parcours_form_2 {
     width: 90%;
-    position: absolute;
-}
+    position: relative;
+} */
 
 #competences {
     display: flex;
