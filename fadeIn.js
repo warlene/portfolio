@@ -1,14 +1,11 @@
-// $('.text_name').css('visibility', 'hidden');
-// $('#profil').css('visibility', 'hidden');
-
-jQuery(document).ready(function(){
+$(document).ready(function(){
     setTimeout(function(){
-        $('.text_name').fadeIn(1000);
-        $('#profil').fadeIn(1000);
-    }, 3000);
-});
+        $('#text_name').fadeIn(1000);
+        $('.nav-link').fadeIn(1000);
+    }, 2700);
 
-$(function () {
+    new WOW().init();
+
     var diam = SVG('diams_cv').size(200, 200)
     var poly = diam.path('M49.408,48.563L35.443,20.534l35.85,0.483Z').fill('#d49f4b')
     var poly2 = diam.path('M100.725,48l14.02-27.747-35.99.478Z').fill('#d49f4b')

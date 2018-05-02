@@ -61,6 +61,10 @@ h1 {
     color: #d49f4b;
 }
 
+.nav-link {
+    display: none;
+}
+
 #enteteNav a {
     color: #fff;
 }
@@ -114,7 +118,8 @@ h1 {
     height: 100%;
 }
 
-.text_name {
+#text_name {
+    display: none;
     text-align: center;
     padding-top: 25%;
     position: absolute;
@@ -122,56 +127,56 @@ h1 {
     color: #f6d298;
 }
 
-.text_name h3 {
+#text_name h3 {
     color: #fff;
 }
 
 @media (min-width: 360px) {
-    .text_name h1 {
+    #text_name h1 {
         font-size: 0.6rem;
         margin-top: 20px;
         margin-bottom: 0;
     }
-    .text_name h3 {
+    #text_name h3 {
         margin: auto;
         font-size: 0.6rem;
     }
 }
 
 @media (min-width: 576px) {
-    .text_name h1 {
+    #text_name h1 {
         font-size: 1.5rem;
         margin-bottom: 0;
     }
-    .text_name h3 {
+    #text_name h3 {
         margin: auto;
         font-size: 1rem;
     }
 }
 
 @media (min-width: 768px) {
-    .text_name h1 {
+    #text_name h1 {
         font-size: 2rem;
     }
-    .text_name h3 {
+    #text_name h3 {
         font-size: 1.8rem;
     }
 }
 
 @media (min-width: 992px) {
-    .text_name h1 {
+    #text_name h1 {
         font-size: 2.5rem;
     }
-    .text_name h3 {
+    #text_name h3 {
         font-size: 2rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .text_name h1 {
+    #text_name h1 {
         font-size: 3.5rem;
     }
-    .text_name h3 {
+    #text_name h3 {
         font-size: 3rem;
     }
 }
@@ -236,7 +241,7 @@ h1 {
     }
 }
 
-#diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8 {
+#diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8, .img_projet h3 {
     font-family: 'saniretro';
     color: #fff;
     text-align: center;
@@ -288,11 +293,9 @@ h1 {
     align-items: center;
 }
 
-/*
-.diago_parcours {
-    display: block;
-    padding-right: 0;
-} */
+.wow {
+    visibility: hidden;
+}
 
 .experience {
     margin-top: 8%;
@@ -359,18 +362,13 @@ h1 {
     }
 }
 
-/* #parcours_form_2 {
-    width: 90%;
-    position: relative;
-} */
-
 #competences {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#line1, #line2 {
+#line1, #line2, #projets {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -380,6 +378,28 @@ h1 {
 #diamant1, #diamant2, #diamant3 {
     display: block;
     margin: 0;
+}
+
+#projets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img_projet {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.img_projet:hover {
+    opacity: 1;
 }
 
 footer {
