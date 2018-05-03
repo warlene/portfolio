@@ -17,6 +17,12 @@ h1 {
     margin-bottom: 30px;
 }
 
+@media (min-width: 360px) {
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
 @media (min-width: 556px) {
     h1 {
         font-size: 2em;
@@ -92,7 +98,20 @@ h1 {
         justify-content: center;
         background-color: #142134;
         position: absolute;
-        top: 5%;
+        top: 15px;
+        height: 30px;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #142134;
+        position: absolute;
+        top: 24px;
         height: 30px;
         width: 60%;
     }
@@ -102,6 +121,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -121,7 +141,7 @@ h1 {
 #text_name {
     display: none;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 19%;
     position: absolute;
     font-family: 'saniretro';
     color: #f6d298;
@@ -132,14 +152,16 @@ h1 {
 }
 
 @media (min-width: 360px) {
+    #text_name {
+        padding-top: 17%;
+    }
     #text_name h1 {
-        font-size: 0.6rem;
-        margin-top: 20px;
+        font-size: 1rem;
         margin-bottom: 0;
     }
     #text_name h3 {
         margin: auto;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -241,7 +263,7 @@ h1 {
     }
 }
 
-#diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8, .img_projet h3 {
+#diams_cv h3, #diamant1, #diamant2, #diamant3, #diamant4, #diamant5, #diamant6, #diamant7, #diamant8, #diamant9, #diamant10, #diamant11, #diamant12, .img_projet h3 {
     font-family: 'saniretro';
     color: #fff;
     text-align: center;
@@ -263,7 +285,7 @@ h1 {
     margin-right: 20px;
 }
 
-.github {
+.github, .github_min {
     border-radius: 5px;
 }
 
@@ -391,7 +413,7 @@ h1 {
     justify-content: center;
 }
 
-#line1, #line2, #projets {
+#line1, #line2, #line3, #projets {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -439,16 +461,14 @@ h1 {
     position: relative;
 }
 
-/* #contact_titre {
-    margin-top: 0;
-    position: absolute;
-} */
-
 @media (min-width: 360px) {
     #contact_titre {
         margin-top: 0;
         position: absolute;
         font-size: 1.5em;
+    }
+    .contact {
+        font-size: 1em;
     }
 }
 
@@ -458,6 +478,9 @@ h1 {
         position: absolute;
         font-size: 2em;
     }
+    .contact {
+        font-size: 1.2em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -465,6 +488,9 @@ h1 {
         margin-top: 0;
         position: absolute;
         font-size: 3em;
+    }
+    .contact {
+        font-size: 1.3em;
     }
 }
 
@@ -474,13 +500,36 @@ h1 {
         position: absolute;
         font-size: 4em;
     }
+    .contact {
+        font-size: 1.4em;
+    }
 }
 
 .contact {
+    display: block;
+    text-align: center;
     font-family: 'Bellerose';
     color: #fff;
     margin-top: 0;
-    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo_contact {
+    display: inline;
+}
+
+.linkedin_min, .github_min {
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 footer {
