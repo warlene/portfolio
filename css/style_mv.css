@@ -439,31 +439,39 @@ h1 {
     position: relative;
 }
 
-#contact_titre {
+/* #contact_titre {
     margin-top: 0;
     position: absolute;
-}
+} */
 
 @media (min-width: 360px) {
     #contact_titre {
+        margin-top: 0;
+        position: absolute;
         font-size: 1.5em;
     }
 }
 
 @media (min-width: 576px) {
     #contact_titre {
+        margin-top: 0;
+        position: absolute;
         font-size: 2em;
     }
 }
 
 @media (min-width: 768px) {
     #contact_titre {
+        margin-top: 0;
+        position: absolute;
         font-size: 3em;
     }
 }
 
 @media (min-width: 992px) {
     #contact_titre {
+        margin-top: 0;
+        position: absolute;
         font-size: 4em;
     }
 }
