@@ -8,6 +8,26 @@ header {
     justify-content: center;
 }
 
+@font-face {
+    font-family: 'saniretro';
+    src: url('fonts/Saniretro.ttf');
+}
+
+@font-face {
+    font-family: 'segan';
+    src: url('fonts/Segan-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Bellerose';
+    src: url('fonts/Bellerose.ttf');
+}
+
+@font-face {
+    font-family: 'LRT_Oksana';
+    src: url('fonts/LRT_Oksana.ttf');
+}
+
 h1 {
     font-family: 'saniretro';
     color: #d49f4b;
@@ -39,26 +59,6 @@ h1 {
     h1 {
         font-size: 4em;
     }
-}
-
-@font-face {
-    font-family: 'saniretro';
-    src: url('pictures/fonts/Saniretro.ttf');
-}
-
-@font-face {
-    font-family: 'segan';
-    src: url('pictures/fonts/Segan-Light.ttf');
-}
-
-@font-face {
-    font-family: 'Bellerose';
-    src: url('pictures/fonts/Bellerose.ttf');
-}
-
-@font-face {
-    font-family: 'LRT_Oksana';
-    src: url('pictures/fonts/LRT_Oksana.ttf');
 }
 
 .nav-link, .description {

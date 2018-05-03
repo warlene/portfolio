@@ -92,7 +92,7 @@ $(document).ready(function(){
             polygon8.animate(1000, 'quadOut').move(137,181).rotate(12).opacity(1)
             polygon7.animate(1000, 'quadOut').move(186,234).rotate(47).opacity(1)
 
-            $('#diamant12').append("<h2>Avid</h2>")
+            $('#diamant12').append("<h2>EZTitle</h2>")
         }
     });
 });
