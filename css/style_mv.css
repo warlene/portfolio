@@ -61,7 +61,7 @@ h1 {
     }
 }
 
-.nav-link, .description {
+.nav-link, .description, #twitter, #my_cinema, #puissance4 {
     font-family: 'saniretro';
     font-size: 1.6em;
     color: #d49f4b;
@@ -465,15 +465,69 @@ h1 {
 }
 
 .img_projet {
-    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.img_projet img {
+    position: relative;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    transition: opacity 0.4s ease-out;
+}
+
+.img_projet h3 {
+    position: absolute;
+    opacity: 0;
+    font-size: 3em;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: opacity 0.5s ease-out;
 }
 
-.img_projet:hover {
+.img_projet:hover img {
+    opacity: 0.3;
+}
+
+.img_projet:hover h3 {
     opacity: 1;
+    font-size: 3em;
+}
+
+#twitter h5, #my_cinema h5, #puissance4 h5 {
+    font-family: 'saniretro';
+    font-size: 1em;
+    color: #d49f4b;
+}
+
+#twitter p, #my_cinema p, #puissance4 p {
+    font-family: 'Bellerose';
+    font-size: 0.7em;
+    color: black;
+}
+
+.titlemodal, .footermodal {
+    background-color: #142134;
+}
+
+.closebtn {
+    color: #fff;
+}
+
+.closebtn:hover {
+    color: #fff;
+    background-color: #d49f4b;
+}
+
+.fermer:hover {
+    color: #fff;
+    background-color: #d49f4b;
 }
 
 .contact_entete {

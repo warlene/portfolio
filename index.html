@@ -279,45 +279,102 @@
 
         <section id="projets">
             <div class="img_projet col-lg-3">
-                <a data-toggle="collapse" href="#mycinema" role="button" aria-expanded="false" aria-controls="mycinema">
+                <a data-toggle="modal" data-target="#my_cinema" href="#my_cinema" role="button">
                     <img src="pictures/my_cinema.PNG" style="width:100%;height:auto;"/>
-                    <h3>MyCinema</h3>
                 </a>
+                <h3>My Cinema</h3>
             </div>
             <div class="img_projet col-lg-3">
-                <a data-toggle="collapse" href="#puissance4" role="button" aria-expanded="false" aria-controls="puissance4">
+                <a data-toggle="modal" data-target="#puissance4" href="#puissance4" role="button">
                     <img src="pictures/puissance4.PNG" style="width:100%;height:auto;"/>
                 </a>
                 <h3>puissance 4</h3>
             </div>
             <div class="img_projet col-lg-3">
-                <a data-toggle="collapse" href="#twitter" role="button" aria-expanded="false" aria-controls="twitter">
+                <a data-toggle="modal" data-target="#twitter" href="#twitter" role="button">
                     <img src="pictures/tweet_academie.PNG" style="width:100%;height:auto;"/>
                 </a>
                 <h3>Tweet Académie</h3>
             </div>
 
-            <div class="collapse" id="mycinema">
-              <div class="card text-center card-body" style="width: 50%;">
-                  <p class="card-text">
-                      Projet : Créer un Framework PHP style "Laravel" et utiliser ce framework pour créer un site filmothèque.
-                  </p>
-                  <p class="card-text">
-                      Temps de réalisation : 1 mois
-                  </p>
-                  <p>
-                      Temps de réalisation : 1 mois
-                  </p>
+            <div class="modal fade" id="my_cinema" tabindex="-1" role="dialog" aria-labelledby="my_cinema" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header titlemodal">
+                    <h5 class="modal-title" id="my_cinema">My Cinema</h5>
+                    <button type="button" class="close closebtn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body bodymodal">
+                      <p class="card-text">
+                          Projet : Créer un Framework PHP style "Laravel" et utiliser ce framework pour créer un site filmothèque.
+                      </p>
+                      <p class="card-text">
+                          Temps de réalisation : 1 mois
+                      </p>
+                      <p>
+                          Langage utilisé : PHP
+                      </p>
+                  </div>
+                  <div class="modal-footer footermodal">
+                    <button type="button" class="btn btn-secondary fermer" data-dismiss="modal">fermer</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="collapse" id="puissance4">
-              <div class="card card-body">
-                  lolilol nvfmerl vdslm: gvre gvme vrmùgv dslcezkver glvremvl rmv elmvb relmbv edcezroplmb rtepmvolusd vr evl rem!b rebmpore opmbre
+
+            <div class="modal fade" id="puissance4" tabindex="-1" role="dialog" aria-labelledby="puissance4" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header titlemodal">
+                    <h5 class="modal-title" id="puissance4">Puissance 4</h5>
+                    <button type="button" class="close closebtn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body bodymodal">
+                      <p class="card-text">
+                          Projet : Développer un jeu virtuel Puissance 4
+                      </p>
+                      <p class="card-text">
+                          Temps de réalisation : 2 semaines
+                      </p>
+                      <p>
+                          Langage utilisé : JavaScript
+                      </p>
+                  </div>
+                  <div class="modal-footer footermodal">
+                    <button type="button" class="btn btn-secondary fermer" data-dismiss="modal">fermer</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="collapse" id="twitter">
-              <div class="card card-body">
-                  lolilol nvfmerl vdslm: gvre gvme vrmùgv dslcezkver glvremvl rmv elmvb relmbv edcezroplmb rtepmvolusd vr evl rem!b rebmpore opmbre
+
+            <div class="modal fade" id="twitter" tabindex="-1" role="dialog" aria-labelledby="twitter" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header titlemodal">
+                    <h5 class="modal-title" id="twitter">Twitter</h5>
+                    <button type="button" class="close closebtn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body bodymodal">
+                      <p class="card-text">
+                          Projet : Créer un réseau social style "Twitter" en MVC
+                      </p>
+                      <p class="card-text">
+                          Temps de réalisation : 1 mois
+                      </p>
+                      <p>
+                          Langage utilisé : PHP
+                      </p>
+                  </div>
+                  <div class="modal-footer footermodal">
+                    <button type="button" class="btn btn-secondary fermer" data-dismiss="modal">fermer</button>
+                  </div>
+                </div>
               </div>
             </div>
         </section>
@@ -334,7 +391,6 @@
 
                     <?xpacket end="w"?></metadata>
                     <g style="fill:none;stroke:#d49f4b;stroke-width:6;stroke-linejoin:round;">
-
                         <path id="Polygone_1" data-name="Polygone 1" class="cls-1" d="M388.677,135.963l210.5-70.673h421l210.5,70.673-210.5,70.674h-421Z" transform="translate(0 -65)"/>
                         <path id="Polygone_2" data-name="Polygone 2" class="cls-2" d="M473.992,135.51l169-70.5h338l169,70.5-169,70.5h-338Z" transform="translate(0 -65)"/>
                     </g>
