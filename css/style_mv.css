@@ -61,7 +61,7 @@ h1 {
     }
 }
 
-.nav-link, .description, #twitter, #my_cinema, #puissance4 {
+.nav-link, #twitter, #my_cinema, #puissance4 {
     font-family: 'saniretro';
     font-size: 1.6em;
     color: #d49f4b;
@@ -208,6 +208,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -233,20 +234,21 @@ h1 {
 }
 
 .description {
+    font-family: 'Bellerose';
     color: #fff;
 }
 
 @media (min-width: 360px) {
     .description p {
         text-align: center;
-        font-size: 0.6em;
+        font-size: 1em;
         width: auto;
     }
 }
 
 @media (min-width: 576px) {
     .description p {
-        font-size: 0.7em;
+        font-size: 1em;
         width: auto;
     }
 }
@@ -254,14 +256,14 @@ h1 {
 @media (min-width: 768px) {
     .description p {
         text-align: justify;
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
 }
 
 @media (min-width: 992px) {
     .description p {
         text-align: justify;
-        font-size: 1em;
+        font-size: 1.4em;
     }
 }
 
@@ -506,7 +508,7 @@ h1 {
     color: #d49f4b;
 }
 
-#twitter p, #my_cinema p, #puissance4 p {
+#twitter p, #my_cinema p, #puissance4 p, #twitter li, #my_cinema li, #puissance4 li {
     font-family: 'Bellerose';
     font-size: 0.7em;
     color: black;
@@ -514,6 +516,12 @@ h1 {
 
 .titlemodal, .footermodal {
     background-color: #142134;
+}
+
+.bodymodal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .closebtn {
@@ -528,6 +536,11 @@ h1 {
 .fermer:hover {
     color: #fff;
     background-color: #d49f4b;
+}
+
+.carousel {
+    width: 80%;
+    height: auto;
 }
 
 .contact_entete {
