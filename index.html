@@ -433,22 +433,8 @@
                     <a href="https://github.com/warlene/portfolio"><img class="github_min" src="pictures/logo_github.png"/></a>
                 </div>
             </div>
-
-            <?php
-                if(isset($_POST['name']) && !empty($_POST['name'])) {
-                    if(isset($_POST['email']) && !empty($_POST['email'])) {
-                        if(isset($_POST['message']) && !empty($_POST['message'])) {
-                            $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-                            $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
-                            $message = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-                            if ($email) {
-                                mail('marlene.vernet@epitech.eu', 'Mail de' . $name . "- son email :" . $email, $message)
-                            }
-                        }
-                    }
-                }
-            ?>
         </section>
+        
         <footer>
             <div id="footer">
                 <svg id="cadre_footer" xmlns="http://www.w3.org/2000/svg" width="1572" height="171" viewBox="0 0 1572 171">
