@@ -433,12 +433,26 @@
                     <a href="https://github.com/warlene/portfolio"><img class="github_min" src="pictures/logo_github.png"/></a>
                 </div>
             </div>
+
+            <?php
+                if(isset($_POST['name']) && !empty($_POST['name'])) {
+                    if(isset($_POST['email']) && !empty($_POST['email'])) {
+                        if(isset($_POST['message']) && !empty($_POST['message'])) {
+                            $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+                            $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+                            $message = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+                            if ($email) {
+                                mail('marlene.vernet@epitech.eu', 'Mail de' . $name . "- son email :" . $email, $message)
+                            }
+                        }
+                    }
+                }
+            ?>
         </section>
         <footer>
             <div id="footer">
                 <svg id="cadre_footer" xmlns="http://www.w3.org/2000/svg" width="1572" height="171" viewBox="0 0 1572 171">
                     <g style="fill:none;stroke:#d49f4b;stroke-width:6;stroke-linejoin:round;">
-
                       <rect class="cls-1" x="0.063" width="1571.937" height="171"/>
                       <path id="triangle_G" data-name="triangle G" class="cls-2" d="M174.005,684.254l1.054,170.505,167.966-.35Z" transform="translate(-174 -684)"/>
                       <path id="triangle_D" data-name="triangle D" class="cls-2" d="M1746,684l-1.06,171.005-167.93-.351Z" transform="translate(-174 -684)"/>
